@@ -3,6 +3,7 @@ const User = require('../models/User');
 const Group = require('../models/Group');
 const authService  = require('../services/authService');
 
+// This is a main comment
 
 const checkUser = async (req) => {
     const token = req.cookies.jwt;
